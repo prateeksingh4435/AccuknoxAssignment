@@ -19,7 +19,7 @@ Last line prints a message including the thread ID where the user_save function 
 this View function create a new user with username and password also its print the thread id 
 
 ![image](https://github.com/user-attachments/assets/2ce2f3bb-0196-41f4-8e19-658491546a1e)
-we can see that the thread id  we can observe that the signal handler executes in the same thread as the saving process, which confirms that Django signals are synchronous and run in the same thread as the action that triggered them.
+we can observe that the signal handler executes in the same thread as the saving process, which confirms that Django signals are synchronous and run in the same thread as the action that triggered them.
 
 # Answer 3: 
 ![image](https://github.com/user-attachments/assets/3eb095ea-bfc2-430a-9ad6-8c114501bf9f)
