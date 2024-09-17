@@ -40,18 +40,9 @@ we can observe that the signal handler executes in the same thread as the saving
 
  # Custom Classes in Python
 
+![image](https://github.com/user-attachments/assets/25ec0f11-c512-4711-a6ae-27a903418ce1)
 
 
-class Rectangle:
-    def __init__(self, length: int, width: int):
-        self.length = length
-        self.width = width
-    def __iter__(self):
-        yield {'length': self.length}
-        yield {'width': self.width}
-
-rectangle = Rectangle(length=10, width=5)
-
-for dimension in rectangle:
-    print(dimension)
+it will print : {'length': 20}
+                {'width': 55}
  
